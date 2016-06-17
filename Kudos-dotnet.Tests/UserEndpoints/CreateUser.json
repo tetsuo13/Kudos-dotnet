@@ -1,0 +1,37 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0",
+        "urn:scim:schemas:extension:enterprise:1.0",
+        "urn:scim:schemas:extension:kudos:1.0"
+    ],
+    "id": "88171",
+    "userName": "user@example.com",
+    "title": "Staff",
+    "active": true,
+    "name": {
+        "givenName": "?",
+        "familyName": "?"
+    },
+    "emails": [
+        {
+            "value": "user@example.com"
+        }
+    ],
+    "roles": [
+        {
+            "value": "U"
+        }
+    ],
+    "urn:scim:schemas:extension:kudos:1.0": {
+        "location": "Calgary (Other)",
+        "kudosPoints": 150
+    },
+    "urn:scim:schemas:extension:enterprise:1.0": {
+        "department": "Accounting"
+    },
+    "meta": {
+        "created": "2016‐01‐25T20:23:54Z",
+        "lastModified": "2016‐01‐25T20:23:54Z",
+        "location": "https://api.kudosnow.com/scim/v1/Users/88171"
+    }
+}

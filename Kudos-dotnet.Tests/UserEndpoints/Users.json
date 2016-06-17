@@ -1,0 +1,92 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0",
+        "urn:scim:schemas:extension:enterprise:1.0",
+        "urn:scim:schemas:extension:kudos:1.0"
+    ],
+    "totalResults": 2,
+    "Resources": [
+        {
+            "id": "2788",
+            "userName": "exampleuser1@kudosnow.com",
+            "title": "Developer",
+            "active": true,
+            "name": {
+                "givenName": "John",
+                "familyName": "Smith"
+            },
+            "emails": [
+                {
+                    "value": "exampleuser1@kudosnow.com"
+                }
+            ],
+            "roles": [
+                {
+                    "value": "U"
+                }
+            ],
+            "urn:scim:schemas:extension:kudos:1.0": {
+                "location": "Calgary (Other)",
+                "kudosPoints": 300,
+                "jobDescription": "",
+                "notes": ""
+            },
+            "urn:scim:schemas:extension:enterprise:1.0": {
+                "department": "Development"
+            },
+            "groups": [
+                {
+                    "display": "Development",
+                    "value": "3440"
+                }
+            ],
+            "meta": {
+                "created": "2012-03-26T09:26:33Z",
+                "lastModified": "2015-01- 31T07:37:07Z",
+                "location": "https://api.kudosnow.com/scim/v1/Users/2788"
+            }
+        },
+        {
+            "id": "3018",
+            "userName": "exampleuser2@kudosnow.com",
+            "title": "CEO",
+            "active": true,
+            "name": {
+                "givenName": "Joe",
+                "familyName": "Thomas"
+            },
+            "emails": [
+                {
+                    "value": "exampleuser2@kudosnow.com"
+                }
+            ],
+            "roles": [
+                {
+                    "value": "SA"
+                }
+            ],
+            "urn:scim:schemas:extension:kudos:1.0": {
+                "location": "Mountain View",
+                "kudosPoints": 400,
+                "dateOfBirth": "1980-01-01",
+                "jobDescription": "",
+                "notes": ""
+            },
+
+            "urn:scim:schemas:extension:enterprise:1.0": {
+                "department": "Corporate"
+            },
+            "groups": [
+                {
+                    "display": "Kudos Group 1",
+                    "value": "3440"
+                }
+            ],
+            "meta": {
+                "created": "2012-04-16T23:22:31Z",
+                "lastModified": "2015-02- 18T20:39:47Z",
+                "location": "https://api.kudosnow.com/scim/v1/Users/3018"
+            }
+        }
+    ]
+}

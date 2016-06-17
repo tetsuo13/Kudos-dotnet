@@ -1,0 +1,47 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0",
+        "urn:scim:schemas:extension:enterprise:1.0",
+        "urn:scim:schemas:extension:kudos:1.0"
+    ],
+    "totalResults": 2,
+    "Resources": [
+        {
+            "id": "2907",
+            "displayName": "Kudos Evangelists",
+            "meta": {
+                "created": "2012-11-16T23:55:48Z",
+                "lastModified": "2012-11- 16T23:55:48Z",
+                "location": "https://api.kudosnow.com/scim/v1/Groups/2907"
+            },
+            "members": [
+                {
+                    "type": "user",
+                    "value": "17",
+                    "display": "Jane Doe"
+                }
+            ]
+        },
+        {
+            "id": "13689",
+            "displayName": "Development Group",
+            "meta": {
+                "created": "2014-08-12T16:16:37Z",
+                "lastModified": "2014-08-12T16:16:37Z",
+                "location": "https://api.kudosnow.com/scim/v1/Groups/13689"
+            },
+            "members": [
+                {
+                    "type": "user",
+                    "value": "22537",
+                    "display": "Bob Smith"
+                },
+                {
+                    "type": "user",
+                    "value": "30541",
+                    "display": "Jane Simpson"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0",
+        "urn:scim:schemas:extension:enterprise:1.0",
+        "urn:scim:schemas:extension:kudos:1.0"
+    ],
+    "id": "53792",
+    "userName": "exampleuser1@kudosnow.com",
+    "externalId": "123456",
+    "title": "Developer",
+    "active": true,
+    "name": {
+        "givenName": "Jane",
+        "familyName": "Simpson"
+    },
+    "emails": [
+        {
+            "value": "exampleuser1@kudosnow.com"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "type": "mobile",
+            "value": "555-555-1234"
+        },
+        {
+            "type": "work",
+            "value": "555-555-1234"
+        }
+    ],
+    "roles": [
+        {
+            "value": "A"
+        }
+    ],
+    "urn:scim:schemas:extension:kudos:1.0": {
+        "location": "Calgary (Localmotive Office)",
+        "kudosPoints": 300,
+        "dateOfBirth": "1990-01-24",
+        "jobDescription": "",
+        "notes": ""
+    },
+    "urn:scim:schemas:extension:enterprise:1.0": {
+        "employeeNumber": "",
+        "department": "Development",
+        "manager": {
+            "managerId": 16,
+        }
+    },
+    "groups": [
+        {
+            "display": "Development",
+            "value": "9810"
+        }
+    ],
+    "meta": {
+        "created": "2015-02-11T00:21:51Z",
+        "lastModified": "2016-01-25T20:17:15Z",
+        "location": "https://api.kudosnow.com/scim/v1/Users/53792"
+    }
+}

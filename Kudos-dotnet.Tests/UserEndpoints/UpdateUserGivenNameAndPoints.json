@@ -1,0 +1,59 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0",
+        "urn:scim:schemas:extension:enterprise:1.0",
+        "urn:scim:schemas:extension:kudos:1.0"
+    ],
+    "id": "53792",
+    "userName": "user@example.com",
+    "externalId": "",
+    "title": "Staff",
+    "active": true,
+    "name": {
+        "givenName": "?",
+        "familyName": "Smith"
+    },
+    "emails": [
+        {
+            "value": "user@example.com"
+        }
+    ],
+    "roles": [
+        {
+            "value": "SA"
+        }
+    ],
+    "urn:scim:schemas:extension:kudos:1.0": {
+        "location": "Calgary (Other)",
+        "kudosPoints": 150,
+        "jobDescription": "",
+        "notes": ""
+    },
+    "urn:scim:schemas:extension:enterprise:1.0": {
+        "employeeNumber": "",
+        "department": "Accounting",
+        "manager": {
+            "managerId": 21931,
+            "displayName": "Javier Valerio"
+        }
+    },
+    "groups": [
+        {
+            "display": "Axa Heros",
+            "value": "9810"
+        },
+        {
+            "display": "heather's test group",
+            "value": "20336"
+        },
+        {
+            "display": "Technology Team (Calgary & Cordoba)",
+            "value": "2886"
+        }
+    ],
+    "meta": {
+        "created": "2015‐02‐11T00:21:51Z",
+        "lastModified": "2016‐01‐29T17:27:05Z",
+        "location": "https://api.lvh.me:3000/scim/v1/Users/53792"
+    }
+}

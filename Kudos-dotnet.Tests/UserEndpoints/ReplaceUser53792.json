@@ -1,0 +1,43 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0",
+        "urn:scim:schemas:extension:enterprise:1.0",
+        "urn:scim:schemas:extension:kudos:1.0"
+    ],
+    "id": "53792",
+    "userName": "user@example.com",
+    "externalId": "",
+    "title": "System Default",
+    "active": true,
+    "name": {
+        "givenName": "Barbara",
+        "familyName": "Smith"
+    },
+    "emails": [
+        {
+            "value": "user@example.com"
+        }
+    ],
+    "roles": [
+        {
+            "value": "U"
+        }
+    ],
+    "urn:scim:schemas:extension:kudos:1.0": {
+        "location": "Calgary (Localmotive Office)",
+        "kudosPoints": 300,
+        "dateOfBirth": "1000‐01‐01",
+        "jobDescription": "",
+        "notes": ""
+    },
+    "urn:scim:schemas:extension:enterprise:1.0": {
+        "employeeNumber": "",
+        "department": "Development"
+    },
+    "groups": [ ],
+    "meta": {
+        "created": "2015‐02‐11T00:21:51Z",
+        "lastModified": "2016‐01‐25T20:29:47Z",
+        "location": "https://api.kudosnow.com/scim/v1/Users/53792"
+    }
+}

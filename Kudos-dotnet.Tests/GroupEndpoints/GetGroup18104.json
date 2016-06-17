@@ -1,0 +1,19 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0"
+    ],
+    "id": "18104",
+    "displayName": "Kudos Development Group",
+    "meta": {
+        "created": "2014-12-23T19:33:18Z",
+        "lastModified": "2016-01-05T20:21:16Z",
+        "location": "https://api.kudosnow.com/scim/v1/Groups/20664"
+    },
+    "members": [
+        {
+            "type": "user",
+            "value": "50398",
+            "display": "Linus Smith"
+        }
+    ]
+}

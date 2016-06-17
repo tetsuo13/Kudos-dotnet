@@ -1,0 +1,58 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0",
+        "urn:scim:schemas:extension:enterprise:1.0",
+        "urn:scim:schemas:extension:kudos:1.0"
+    ],
+    "id": "88172",
+    "userName": "user@example.com",
+    "externalId": "701984",
+    "title": "HR Manager",
+    "active": true,
+    "name": {
+        "givenName": "Barbara",
+        "familyName": "Jensen"
+    },
+    "emails": [
+        {
+            "value": "user@example.com"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "type": "mobile",
+            "value": "555‐555‐5555"
+        },
+        {
+            "type": "work",
+            "value": "555‐555‐4444"
+        }
+    ],
+    "roles": [
+        {
+            "value": "SA"
+        }
+    ],
+    "urn:scim:schemas:extension:kudos:1.0": {
+        "location": "Calgary (Other)",
+        "kudosPoints": 200,
+        "dateOfBirth": "1982‐01‐01",
+        "startDate": "2015‐01‐01",
+        "jobDescription": "Example Job Description",
+        "notes": "Example Notes"
+    },
+    "urn:scim:schemas:extension:enterprise:1.0": {
+        "employeeNumber": "12319",
+        "division": "Example Division",
+        "department": "HR",
+        "manager": {
+            "managerId": 53792,
+            "displayName": "Jane Simpson"
+        }
+    },
+    "meta": {
+        "created": "2016‐01‐25T20:25:33Z",
+        "lastModified": "2016‐01‐25T20:25:33Z",
+        "location": "https://api.kudosnow.com/scim/v1/Users/88172"
+    }
+}

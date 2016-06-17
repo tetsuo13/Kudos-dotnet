@@ -1,0 +1,36 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0"
+    ],
+    "documentationUrl": "https://test.kudosnow.com/api_docs/scim",
+    "patch": {
+        "supported": true
+    },
+    "bulk": {
+        "supported": false,
+        "maxOperations": 1000,
+        "maxPayloadSize": 1048576
+    },
+    "filter": {
+        "supported": false,
+        "maxResults": 0
+    },
+    "changePassword": {
+        "supported": false
+    },
+    "sort": {
+        "supported": false
+    },
+    "etag": {
+        "supported": false
+    },
+    "xmlDataFormat": {
+        "supported": false
+    },
+    "authenticationSchemes": [
+        {
+            "name": "OAuth Bearer Token",
+            "description": "Authentication Scheme using the OAuth Bearer Token Standard"
+        }
+    ]
+}

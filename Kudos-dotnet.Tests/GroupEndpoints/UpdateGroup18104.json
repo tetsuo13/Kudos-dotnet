@@ -1,0 +1,19 @@
+﻿{
+    "schemas": [
+        "urn:scim:schemas:core:1.0"
+    ],
+    "id": "18104",
+    "displayName": "SCIM example group",
+    "meta": {
+        "created": "2016‐01‐25T21:13:12Z",
+        "lastModified": "2016‐01‐25T21:13:12Z",
+        "location": "https://api.kudosnow.com/scim/v1/Groups/32327"
+    },
+    "members": [
+        {
+            "type": "user",
+            "value": "52985",
+            "display": "Paul Jones"
+        }
+    ]
+}
