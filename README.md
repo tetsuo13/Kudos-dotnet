@@ -1,6 +1,7 @@
 # Kudos Dot Net
 
 [![Build status](https://ci.appveyor.com/api/projects/status/v0g2xmlmh5lgplmw/branch/master?svg=true)](https://ci.appveyor.com/project/tetsuo13/kudos-dotnet)
+[![NuGet](https://img.shields.io/nuget/v/Kudos.svg?maxAge=2592000)](https://www.nuget.org/packages/Kudos)
 
 Kudos Dot Net is a .NET client for the [SCIM](http://www.simplecloud.info/) User
 Provisioning API in [Kudos](http://kudosnow.com/).
@@ -11,7 +12,8 @@ https://your_company_name.kudosnow.com/api_docs/scim
 ## Installation
 
 Kudos Dot Net can be installed via the NuGet UI (as
-[Kudos Not Net]()) or via the NuGet package manager console:
+[Kudos](https://www.nuget.org/packages/Kudos)) or via the NuGet package manager
+console:
 
 ```PowerShell
 PM> Install-Package KudosDotNet

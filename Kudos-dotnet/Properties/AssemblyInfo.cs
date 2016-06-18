@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Kudos-dotnet")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription(".NET client for the SCIM User Provisioning API in Kudos")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Kudos-dotnet")]

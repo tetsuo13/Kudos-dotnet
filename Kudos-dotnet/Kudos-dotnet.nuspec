@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Kudos</id>
+    <version>1.0.0</version>
+    <title>Kudos</title>
+    <authors>Andrei Nicholson</authors>
+    <licenseUrl>https://github.com/tetsuo13/Kudos-dotnet/raw/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/tetsuo13/Kudos-dotnet</projectUrl>
+    <description>.NET client for the SCIM User Provisioning API in Kudos</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>kudos</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="8.0.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Kudos.dll" target="lib\net45" />
+  </files>
+</package>
