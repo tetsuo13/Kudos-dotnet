@@ -1,5 +1,7 @@
 # Kudos Dot Net
 
+[![Build status](https://ci.appveyor.com/api/projects/status/v0g2xmlmh5lgplmw/branch/master?svg=true)](https://ci.appveyor.com/project/tetsuo13/kudos-dotnet)
+
 Kudos Dot Net is a .NET client for the [SCIM](http://www.simplecloud.info/) User
 Provisioning API in [Kudos](http://kudosnow.com/).
 
