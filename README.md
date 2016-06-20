@@ -16,7 +16,7 @@ Kudos Dot Net can be installed via the NuGet UI (as
 console:
 
 ```PowerShell
-PM> Install-Package KudosDotNet
+PM> Install-Package Kudos
 ```
 
 ## Usage
